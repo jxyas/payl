@@ -5,7 +5,7 @@
       "description": "reboot device injection"
     },
     {
-      "payload": "$(/sbin/reboot)",
+      "payload": "Aa1$(/sbin/reboot)",
       "description": "reboot device injection 2 "
     },
     {
